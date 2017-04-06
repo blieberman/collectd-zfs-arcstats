@@ -12,7 +12,7 @@ class ARCstats(object):
     def log_verbose(self, msg):
         if not self.verbose_logging:
             return
-        collectd.info('%s plugin [verbose]: %s' % self.plugin_name, msg)
+        collectd.info('%s plugin [verbose]: %s' % (self.plugin_name, msg))
 
     def configure_callback(self, conf):
         """Receive configuration block"""
