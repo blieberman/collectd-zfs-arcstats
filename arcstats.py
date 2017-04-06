@@ -6,7 +6,7 @@ from decimal import Decimal
 class ARCstats(object):
 
     def __init__(self):
-        self.plugin_name = "arcstats_ZoL"
+        self.plugin_name = "arcstats"
         self.verbose_logging = False
 
     def log_verbose(self, msg):
